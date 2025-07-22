@@ -115,7 +115,7 @@ const HomePage = () => {
                     Currently in school pursuing high-level physics, mathematics, and history, 
                     I created ChronoMech to explore the fascinating stories behind humanity's 
                     greatest technical achievements.
-                  </p>
+            <div className="lg:col-span-2 space-y-6 pr-6">
 
                   <p className="text-lg text-slate-300 leading-relaxed">
                     My mission is to make the world filled with engineers of different types 
@@ -123,14 +123,14 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-
+                  Currently in school pursuing high-level physics, math, and history, 
               <div className="lg:col-span-1 flex items-start justify-center">
                 <div className="bg-slate-700/30 p-6 rounded-2xl border border-slate-600/30">
                   <img 
                     src="/a3f12681-ce95-435f-9a9a-5ab652395061 copy.JPG" 
                     alt="Siddharth Shetty" 
-                    className="w-48 h-48 object-cover rounded-xl border-2 border-cyan-500/30"
-                  />
+                  My mission is to make the world filled with engineers who recognize it is important 
+                  to look in the past to build a better future.
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ const HomePage = () => {
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Target className="h-6 w-6 text-blue-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Future Goals</h3>
-                    <p className="text-slate-400 text-sm">To pursue mechanical engineering</p>
+                    <p className="text-slate-400 text-sm">To pursue mech eng</p>
                   </div>
 
                   <div className="bg-slate-700/30 p-4 rounded-lg">
@@ -155,7 +155,7 @@ const HomePage = () => {
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Zap className="h-6 w-6 text-purple-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Mission</h3>
-                    <p className="text-slate-400 text-sm">Making the world filled with engineers who learn from the past</p>
+                    <p className="text-slate-400 text-sm">Making the world filled with engineers of different types who recognize it is important to look in the past to build a better future</p>
                   </div>
             </div>
 
@@ -279,12 +279,12 @@ const HomePage = () => {
                   <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6">
                     <h3 className="text-2xl font-bold text-white mb-2">2008 - Tesla Roadster</h3>
                     <p className="text-slate-300 mb-2">Modern electric vehicle revolution</p>
-                    <p className="text-slate-400 text-sm">The first highway-capable electric vehicle with lithium-ion batteries proved that electric cars could be fast, beautiful, and practical. With 245-mile range and 0-60 mph in 3.7 seconds, it sparked the EV revolution.</p>
-                  </div>
+            <div className="lg:col-span-1 flex items-center justify-center">
+              <div className="bg-slate-700/30 p-4 rounded-2xl border border-slate-600/30">
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-600 rounded-full flex items-center justify-center border-4 border-slate-900">
                   <Zap className="h-8 w-8 text-white" />
-                </div>
+                  className="w-40 h-40 object-cover rounded-xl border-2 border-cyan-500/30"
                 <div className="flex-1 pl-8"></div>
               </div>
             </div>

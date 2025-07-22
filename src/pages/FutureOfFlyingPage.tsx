@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Plane, Zap, Wind, Rocket } from 'lucide-react';
+import { ArrowLeft, Plane, Zap, Wind, Rocket, Users, Globe, Battery, Cpu } from 'lucide-react';
 
 const FutureOfFlyingPage = () => {
   return (
@@ -25,115 +25,153 @@ const FutureOfFlyingPage = () => {
           {/* Space for airplane image */}
           <div className="bg-slate-700/30 border-2 border-dashed border-slate-600 rounded-xl p-8 mb-8 text-center">
             <Plane className="h-16 w-16 text-slate-500 mx-auto mb-4" />
-            <p className="text-slate-400">Airplane image will be placed here</p>
+            <p className="text-slate-400">Aetherion X9 aircraft image will be placed here</p>
           </div>
 
           <div className="prose prose-invert max-w-none">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
               <div className="bg-slate-700/30 p-4 rounded-lg">
-                <Zap className="h-6 w-6 text-yellow-400 mb-2" />
-                <h3 className="text-white font-semibold mb-2">Electric Aviation</h3>
-                <p className="text-slate-400 text-sm">Battery-powered aircraft for sustainable flight</p>
+                <Battery className="h-6 w-6 text-green-400 mb-2" />
+                <h3 className="text-white font-semibold mb-2">Electric Propulsion</h3>
+                <p className="text-slate-400 text-sm">Zero-emission flight technology</p>
               </div>
               <div className="bg-slate-700/30 p-4 rounded-lg">
                 <Wind className="h-6 w-6 text-blue-400 mb-2" />
                 <h3 className="text-white font-semibold mb-2">Advanced Aerodynamics</h3>
-                <p className="text-slate-400 text-sm">Next-generation wing designs and airflow control</p>
+                <p className="text-slate-400 text-sm">Next-generation wing designs</p>
               </div>
               <div className="bg-slate-700/30 p-4 rounded-lg">
-                <Rocket className="h-6 w-6 text-orange-400 mb-2" />
-                <h3 className="text-white font-semibold mb-2">Hypersonic Travel</h3>
-                <p className="text-slate-400 text-sm">Ultra-fast transportation beyond sound barriers</p>
+                <Cpu className="h-6 w-6 text-purple-400 mb-2" />
+                <h3 className="text-white font-semibold mb-2">AI Flight Systems</h3>
+                <p className="text-slate-400 text-sm">Autonomous navigation and control</p>
+              </div>
+              <div className="bg-slate-700/30 p-4 rounded-lg">
+                <Users className="h-6 w-6 text-orange-400 mb-2" />
+                <h3 className="text-white font-semibold mb-2">Urban Mobility</h3>
+                <p className="text-slate-400 text-sm">Personal flying vehicles</p>
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">The Evolution of Flight</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">The Aetherion X9: Redefining Aviation</h2>
             <p className="text-lg text-slate-300 leading-relaxed mb-6">
-              Aviation stands at the threshold of revolutionary change. As we look toward the future of flying, 
-              we see emerging technologies that promise to transform how we travel, transport goods, and explore 
-              our world and beyond.
+              The Aetherion X9 represents the pinnacle of next-generation aviation technology, combining revolutionary 
+              propulsion systems with advanced materials science to create an aircraft that transcends traditional 
+              flight limitations. This groundbreaking vehicle embodies the future of sustainable, efficient, and 
+              intelligent air transportation.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Electric and Hybrid Propulsion</h2>
+            {/* Space for technical diagram */}
+            <div className="bg-slate-700/30 border-2 border-dashed border-slate-600 rounded-xl p-6 mb-8 text-center">
+              <Wind className="h-12 w-12 text-slate-500 mx-auto mb-3" />
+              <p className="text-slate-400">Technical diagram of Aetherion X9 propulsion system</p>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4">Revolutionary Propulsion Technology</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
-              The aviation industry is experiencing a paradigm shift toward sustainable propulsion systems. 
-              Electric aircraft, powered by advanced battery technologies, are becoming viable for short-haul 
-              flights and urban air mobility. Companies like Eviation and Wright Electric are developing 
-              all-electric aircraft that could revolutionize regional aviation.
+              At the heart of the Aetherion X9 lies its revolutionary hybrid-electric propulsion system. Unlike 
+              conventional aircraft that rely solely on fossil fuels, the X9 integrates advanced battery technology 
+              with high-efficiency turbofan engines, creating a propulsion system that can adapt to different flight 
+              phases for optimal performance and minimal environmental impact.
             </p>
 
             <p className="text-slate-300 leading-relaxed mb-6">
-              Hybrid-electric systems offer a bridge to fully electric flight, combining traditional jet engines 
-              with electric motors to reduce fuel consumption and emissions. These systems can optimize power 
-              delivery during different phases of flight, using electric power for takeoff and landing while 
-              relying on conventional engines for cruise flight.
+              The aircraft's distributed electric propulsion (DEP) system features multiple smaller electric motors 
+              positioned along the wing's leading edge, providing unprecedented control over airflow and lift 
+              generation. This configuration not only improves fuel efficiency by up to 40% compared to traditional 
+              aircraft but also enables quieter operation and enhanced safety through redundancy.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Urban Air Mobility</h2>
+            {/* Space for cockpit image */}
+            <div className="bg-slate-700/30 border-2 border-dashed border-slate-600 rounded-xl p-6 mb-8 text-center">
+              <Cpu className="h-12 w-12 text-slate-500 mx-auto mb-3" />
+              <p className="text-slate-400">Advanced cockpit with AI-assisted flight controls</p>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4">Intelligent Flight Systems</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
-              The concept of flying cars is transitioning from science fiction to reality. Electric Vertical 
-              Takeoff and Landing (eVTOL) aircraft are being developed for urban transportation, promising 
-              to alleviate traffic congestion and provide rapid point-to-point travel within cities.
+              The Aetherion X9 incorporates cutting-edge artificial intelligence to create an unprecedented level 
+              of flight automation and safety. The aircraft's neural network-based flight management system 
+              continuously analyzes weather patterns, air traffic, and aircraft performance to optimize flight 
+              paths in real-time, reducing fuel consumption and flight times while maintaining the highest safety standards.
             </p>
 
             <p className="text-slate-300 leading-relaxed mb-6">
-              These aircraft feature distributed electric propulsion systems, advanced flight control software, 
-              and autonomous capabilities. Companies like Joby Aviation, Lilium, and Archer are leading the 
-              development of these revolutionary vehicles, with commercial operations expected within the decade.
+              Advanced sensor fusion technology combines data from radar, lidar, and optical systems to create 
+              a comprehensive 360-degree awareness of the aircraft's environment. This system can detect and 
+              avoid potential hazards, including other aircraft, weather phenomena, and terrain obstacles, 
+              with reaction times far exceeding human capabilities.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Supersonic and Hypersonic Flight</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Sustainable Aviation Materials</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
-              The return of supersonic passenger travel is on the horizon, with companies like Boom Supersonic 
-              developing aircraft that can fly faster than the speed of sound while addressing the noise and 
-              efficiency issues that plagued earlier supersonic aircraft like the Concorde.
+              The X9's airframe utilizes next-generation composite materials that are both lighter and stronger 
+              than traditional aluminum construction. These bio-inspired materials, developed through advanced 
+              nanotechnology, reduce the aircraft's weight by 25% while improving structural integrity and 
+              resistance to fatigue and environmental factors.
+            </p>
+
+            {/* Space for materials diagram */}
+            <div className="bg-slate-700/30 border-2 border-dashed border-slate-600 rounded-xl p-6 mb-8 text-center">
+              <Zap className="h-12 w-12 text-slate-500 mx-auto mb-3" />
+              <p className="text-slate-400">Cross-section showing advanced composite materials</p>
+            </div>
+
+            <p className="text-slate-300 leading-relaxed mb-6">
+              The aircraft's smart materials can adapt to changing flight conditions, with wings that subtly 
+              adjust their shape to optimize aerodynamic efficiency throughout different phases of flight. 
+              This morphing wing technology, inspired by bird flight mechanics, provides significant improvements 
+              in fuel efficiency and flight performance across a wide range of operating conditions.
+            </p>
+
+            <h2 className="text-2xl font-bold text-white mb-4">Urban Air Mobility Integration</h2>
+            <p className="text-slate-300 leading-relaxed mb-4">
+              Beyond traditional aviation routes, the Aetherion X9 is designed to integrate seamlessly with 
+              emerging urban air mobility networks. Its advanced vertical takeoff and landing (VTOL) capabilities 
+              enable operation from smaller airports and urban landing pads, bringing aviation closer to city centers 
+              and reducing the need for extensive ground transportation.
             </p>
 
             <p className="text-slate-300 leading-relaxed mb-6">
-              Beyond supersonic flight, hypersonic technology promises to enable travel at speeds exceeding 
-              Mach 5. These aircraft could reduce intercontinental flight times to mere hours, fundamentally 
-              changing global connectivity and commerce.
+              The aircraft's quiet operation, achieved through its electric propulsion system and advanced 
+              noise-reduction technologies, makes it suitable for urban environments where noise pollution 
+              is a critical concern. This capability opens new possibilities for regional transportation and 
+              emergency services in densely populated areas.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Autonomous Flight Systems</h2>
+            {/* Space for urban mobility image */}
+            <div className="bg-slate-700/30 border-2 border-dashed border-slate-600 rounded-xl p-6 mb-8 text-center">
+              <Globe className="h-12 w-12 text-slate-500 mx-auto mb-3" />
+              <p className="text-slate-400">Aetherion X9 operating in urban air mobility network</p>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4">Environmental Impact and Sustainability</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
-              Artificial intelligence and machine learning are enabling increasingly sophisticated autonomous 
-              flight systems. These technologies promise to enhance safety, reduce pilot workload, and enable 
-              new types of aircraft operations that would be impossible with human pilots alone.
+              The Aetherion X9 represents a significant step toward sustainable aviation, with its hybrid-electric 
+              propulsion system reducing carbon emissions by up to 60% compared to conventional aircraft of similar 
+              size and capability. The aircraft's advanced energy management system optimizes the use of electric 
+              power during takeoff and landing phases, when noise and emissions have the greatest environmental impact.
             </p>
 
             <p className="text-slate-300 leading-relaxed mb-6">
-              From fully autonomous cargo aircraft to AI-assisted passenger flights, these systems are being 
-              developed with multiple layers of redundancy and safety protocols to ensure reliable operation 
-              in complex airspace environments.
+              Looking toward the future, the X9's modular design allows for easy integration of emerging technologies 
+              such as hydrogen fuel cells and advanced battery systems as they become available. This forward-thinking 
+              approach ensures that the aircraft can evolve with advancing technology to achieve even greater 
+              environmental benefits over its operational lifetime.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Space Tourism and Beyond</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">The Future of Flight</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
-              The boundary between aviation and spaceflight is blurring as companies develop vehicles capable 
-              of suborbital and orbital flight. Space tourism is becoming a reality, with companies like 
-              SpaceX, Blue Origin, and Virgin Galactic offering civilian access to space.
-            </p>
-
-            <p className="text-slate-300 leading-relaxed mb-6">
-              These developments are driving innovations in propulsion, materials science, and life support 
-              systems that will benefit both space exploration and atmospheric flight. The technologies 
-              developed for space tourism are laying the groundwork for point-to-point suborbital travel, 
-              which could enable travel between any two points on Earth in under an hour.
-            </p>
-
-            <h2 className="text-2xl font-bold text-white mb-4">Challenges and Opportunities</h2>
-            <p className="text-slate-300 leading-relaxed mb-4">
-              The future of flying faces significant challenges, including regulatory frameworks, air traffic 
-              management, infrastructure development, and public acceptance. However, these challenges also 
-              represent opportunities for innovation and collaboration across industries.
+              The Aetherion X9 is more than just an aircraft; it's a glimpse into the future of human mobility. 
+              As we face growing challenges related to climate change, urbanization, and the need for efficient 
+              transportation, innovations like the X9 point the way toward solutions that are both technologically 
+              advanced and environmentally responsible.
             </p>
 
             <p className="text-slate-300 leading-relaxed">
-              As we stand on the brink of this aviation revolution, the future of flying promises to be more 
-              sustainable, accessible, and transformative than ever before. The next decades will see the 
-              realization of dreams that have captivated humanity since we first looked to the skies and 
-              imagined soaring among the clouds.
+              The technologies pioneered in the Aetherion X9 will undoubtedly influence the next generation of 
+              aircraft, from personal flying vehicles to large commercial airliners. As we stand on the threshold 
+              of a new era in aviation, the X9 represents humanity's continued quest to push the boundaries of 
+              what's possible while building a more sustainable future for air transportation.
             </p>
           </div>
         </div>

@@ -7,6 +7,8 @@ import BridgesPage from './pages/BridgesPage';
 import AerospacePage from './pages/AerospacePage';
 import AutomobilesPage from './pages/AutomobilesPage';
 import RoboticsPage from './pages/RoboticsPage';
+import IconsPage from './pages/IconsPage';
+import FutureOfFlyingPage from './pages/FutureOfFlyingPage';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path="/aerospace" element={<AerospacePage />} />
           <Route path="/automobiles" element={<AutomobilesPage />} />
           <Route path="/robotics" element={<RoboticsPage />} />
+          <Route path="/icons" element={<IconsPage />} />
+          <Route path="/future-of-flying" element={<FutureOfFlyingPage />} />
         </Routes>
       </div>
     </Router>

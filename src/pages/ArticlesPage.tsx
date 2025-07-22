@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Rocket } from 'lucide-react';
 
 const ArticlesPage = () => {
   const articles = [
@@ -43,6 +43,14 @@ const ArticlesPage = () => {
       path: '/robotics',
       color: 'from-purple-500 to-pink-600',
       topics: ['Automation', 'Artificial Intelligence', 'Industrial Robots', 'Future Tech']
+    },
+    {
+      title: 'Future of Flying',
+      description: 'Exploring the next generation of aviation technology and space travel',
+      icon: Rocket,
+      path: '/future-of-flying',
+      color: 'from-orange-500 to-red-600',
+      topics: ['Electric Aviation', 'Urban Air Mobility', 'Supersonic Flight', 'Space Tourism']
     }
   ];
 

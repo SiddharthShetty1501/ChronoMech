@@ -8,6 +8,7 @@ const Navbar = () => {
   const navItems = [
     { path: '/', label: 'Home', icon: Home },
     { path: '/articles', label: 'Articles', icon: Grid },
+    { path: '/icons', label: 'Icons', icon: Cog },
   ];
 
   return (

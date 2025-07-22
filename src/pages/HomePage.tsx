@@ -57,7 +57,7 @@ const HomePage = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Engineering
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 break-words overflow-visible">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 break-words">
               Through Time
             </span>
           </h1>
@@ -131,21 +131,6 @@ const HomePage = () => {
                     alt="Siddharth Shetty" 
                     className="w-48 h-48 object-cover rounded-xl border-2 border-cyan-500/30"
                   />
-                </div>
-              </div>
-
-              {/* 2030 - Future Milestone */}
-              <div className="relative flex items-center">
-                <div className="flex-1 pr-8"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-pink-500 to-red-600 rounded-full flex items-center justify-center border-4 border-slate-900">
-                  <Bot className="h-8 w-8 text-white" />
-                </div>
-                <div className="flex-1 pl-8">
-                  <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6">
-                    <h3 className="text-2xl font-bold text-white mb-2">2030 - The Future</h3>
-                    <p className="text-slate-300 mb-2">Robot Dinosaurs????</p>
-                    <p className="text-slate-400 text-sm">Who knows what incredible mechanical engineering innovations await us? Perhaps we'll see biomimetic robots inspired by prehistoric creatures, combining advanced AI with mechanical engineering to create something truly extraordinary. The future of engineering is limited only by our imagination!</p>
-                  </div>
                 </div>
               </div>
             </div>

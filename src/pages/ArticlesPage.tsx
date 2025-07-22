@@ -5,6 +5,14 @@ import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Rocket } from 'luc
 const ArticlesPage = () => {
   const articles = [
     {
+      title: 'Future of Flying',
+      description: 'Exploring the next generation of aviation technology and space travel',
+      icon: Rocket,
+      path: '/future-of-flying',
+      color: 'from-orange-500 to-red-600',
+      topics: ['Electric Aviation', 'Urban Air Mobility', 'Supersonic Flight', 'Space Tourism']
+    },
+    {
       title: 'Steam Engines',
       description: 'The revolutionary machines that powered the Industrial Revolution and transformed manufacturing forever',
       icon: Cog,
@@ -43,14 +51,6 @@ const ArticlesPage = () => {
       path: '/robotics',
       color: 'from-purple-500 to-pink-600',
       topics: ['Automation', 'Artificial Intelligence', 'Industrial Robots', 'Future Tech']
-    },
-    {
-      title: 'Future of Flying',
-      description: 'Exploring the next generation of aviation technology and space travel',
-      icon: Rocket,
-      path: '/future-of-flying',
-      color: 'from-orange-500 to-red-600',
-      topics: ['Electric Aviation', 'Urban Air Mobility', 'Supersonic Flight', 'Space Tourism']
     }
   ];
 

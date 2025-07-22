@@ -7,7 +7,6 @@ import BridgesPage from './pages/BridgesPage';
 import AerospacePage from './pages/AerospacePage';
 import AutomobilesPage from './pages/AutomobilesPage';
 import RoboticsPage from './pages/RoboticsPage';
-import AboutPage from './pages/AboutPage';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
           <Route path="/aerospace" element={<AerospacePage />} />
           <Route path="/automobiles" element={<AutomobilesPage />} />
           <Route path="/robotics" element={<RoboticsPage />} />
-          <Route path="/about" element={<AboutPage />} />
         </Routes>
       </div>
     </Router>

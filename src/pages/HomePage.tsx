@@ -278,12 +278,12 @@ const HomePage = () => {
                   <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6">
                     <h3 className="text-2xl font-bold text-white mb-2">2008 - Tesla Roadster</h3>
                     <p className="text-slate-300 mb-2">Modern electric vehicle revolution</p>
-            <div className="lg:col-span-1 flex items-center justify-center">
-              <div className="bg-slate-700/30 p-4 rounded-2xl border border-slate-600/30">
+                    <p className="text-slate-400 text-sm">The first highway-capable electric vehicle with lithium-ion batteries achieved 245-mile range and 0-60 mph in 3.7 seconds. This proved electric vehicles could match gasoline performance, sparking the modern EV revolution and sustainable transportation movement.</p>
+                  </div>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-600 rounded-full flex items-center justify-center border-4 border-slate-900">
                   <Zap className="h-8 w-8 text-white" />
-                  className="w-40 h-40 object-cover rounded-xl border-2 border-cyan-500/30"
+                </div>
                 <div className="flex-1 pl-8"></div>
               </div>
             </div>
@@ -294,8 +294,5 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
-  )
-}
   )
 }

@@ -1,17 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  ArrowLeft, Home, Grid, Cog, Wrench, Zap, Car, Plane, Bot, ArrowRight, User, BookOpen, Target, Train,
-  Thermometer, Gauge, Factory, Mountain, Waves, Fuel, Settings, Cpu, Brain, Rocket, Satellite, Wind,
-  Heart, Star, Sun, Moon, Cloud, Umbrella, Coffee, Camera, Music, Phone, Mail, Lock, Key, Shield,
-  Search, Filter, Download, Upload, Edit, Delete, Save, Copy, Share, Print, Calendar, Clock, Map,
-  Navigation, Compass, Globe, Flag, Award, Trophy, Medal, Gift, Shopping, Wallet, CreditCard,
-  Activity, Battery, Wifi, Bluetooth, Volume, Mic, Video, Image, File, Folder, Archive, Database,
-  Server, Monitor, Smartphone, Tablet, Laptop, Keyboard, Mouse, Headphones, Speaker, Gamepad,
-  Brush, Palette, Scissors, Ruler, Hammer, Screwdriver, Drill, Saw, Flashlight, Lightbulb,
-  Fire, Flame, Snowflake, Droplet, Leaf, Tree, Flower, Seed, Apple, Cherry, Grape, Carrot,
-  Pizza, Cake, IceCream, Coffee as CoffeeIcon, Wine, Beer, Utensils, ChefHat, Scale, Timer
-} from 'lucide-react';
+import { ArrowLeft, Home, Grid, Cog, Wrench, Zap, Car, Plane, Bot, ArrowRight, User, BookOpen, Target, Train, Thermometer, Gauge, Factory, Mountain, Waves, Fuel, Settings, Cpu, Brain, Rocket, Satellite, Wind, Heart, Star, Sun, Moon, Cloud, Umbrella, Coffee, Camera, Music, Phone, Mail, Lock, Key, Shield, Search, Filter, Download, Upload, Edit, Delete, Save, Copy, Share, Printer as Print, Calendar, Clock, Map, Navigation, Compass, Globe, Flag, Award, Trophy, Medal, Gift, ShoppingBag as Shopping, Wallet, CreditCard, Activity, Battery, Wifi, Bluetooth, Volume, Mic, Video, Image, File, Folder, Archive, Database, Server, Monitor, Smartphone, Tablet, Laptop, Keyboard, Mouse, Headphones, Speaker, Gamepad, Brush, Palette, Scissors, Ruler, Hammer, HardDrive as Screwdriver, Drill, Save as Saw, Flashlight, Lightbulb, Siren as Fire, Flame, Snowflake, Droplet, Leaf, Trees as Tree, Flower, Bed as Seed, Apple, Cherry, Grape, Carrot, Pizza, Cake, IceCream, Coffee as CoffeeIcon, Wine, Beer, Utensils, ChefHat, Scale, Timer } from 'lucide-react';
 
 const IconsPage = () => {
   const iconList = [

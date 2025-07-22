@@ -104,7 +104,7 @@ const HomePage = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-8">
-              <div className="lg:col-span-3 space-y-6">
+              <div className="lg:col-span-3 space-y-6 pr-6">
                 <div className="prose prose-invert max-w-none">
                   <p className="text-xl text-slate-300 leading-relaxed mb-6">
                     Welcome to ChronoMech! I'm Siddharth Shetty, passionate about mechanical engineering 
@@ -115,7 +115,7 @@ const HomePage = () => {
                     Currently in school pursuing high-level physics, mathematics, and history, 
                     I created ChronoMech to explore the fascinating stories behind humanity's 
                     greatest technical achievements.
-            <div className="lg:col-span-2 space-y-6 pr-6">
+                  </p>
 
                   <p className="text-lg text-slate-300 leading-relaxed">
                     My mission is to make the world filled with engineers of different types 
@@ -123,14 +123,13 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-                  Currently in school pursuing high-level physics, math, and history, 
               <div className="lg:col-span-1 flex items-start justify-center">
                 <div className="bg-slate-700/30 p-6 rounded-2xl border border-slate-600/30">
                   <img 
                     src="/a3f12681-ce95-435f-9a9a-5ab652395061 copy.JPG" 
                     alt="Siddharth Shetty" 
-                  My mission is to make the world filled with engineers who recognize it is important 
-                  to look in the past to build a better future.
+                    className="w-40 h-40 object-cover rounded-xl border-2 border-cyan-500/30"
+                  />
                 </div>
               </div>
             </div>

@@ -135,38 +135,32 @@ const HomePage = () => {
               <h2 className="text-4xl font-bold text-white">About Me</h2>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div className="space-y-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+              <div className="lg:col-span-2 space-y-6">
                 <div className="prose prose-invert max-w-none">
-                  <p className="text-lg text-slate-300 leading-relaxed">
+                  <p className="text-xl text-slate-300 leading-relaxed mb-6">
                     Welcome to ChronoMech! I'm Siddharth Shetty, passionate about engineering and the incredible 
                     innovations that have shaped our world throughout history.
                   </p>
                   
-                  <p className="text-slate-300 leading-relaxed">
+                  <p className="text-lg text-slate-300 leading-relaxed mb-4">
                     As a student with dreams of pursuing mechanical engineering in the future, 
                     I created this website to explore and share the fascinating stories behind 
                     humanity's greatest technical achievements.
                   </p>
 
-                  <p className="text-slate-300 leading-relaxed">
+                  <p className="text-lg text-slate-300 leading-relaxed mb-6">
                     From the steam engines that powered the Industrial Revolution to the 
                     cutting-edge robotics of today, engineering has always been about solving 
                     problems and pushing the boundaries of what's possible.
                   </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-slate-700/30 p-4 rounded-lg">
-                    <BookOpen className="h-6 w-6 text-cyan-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Current Focus</h3>
-                    <p className="text-slate-400 text-sm">Student exploring engineering disciplines</p>
-                  </div>
-                  <div className="bg-slate-700/30 p-4 rounded-lg">
-                    <Target className="h-6 w-6 text-blue-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Future Goals</h3>
-                    <p className="text-slate-400 text-sm">Pursuing mechanical engineering</p>
-                  </div>
+                  
+                  <p className="text-lg text-slate-300 leading-relaxed">
+                    Through ChronoMech, I aim to inspire others to appreciate the ingenuity 
+                    and creativity that drives engineering innovation. Each article represents 
+                    hours of research into the fascinating stories behind the machines and 
+                    structures that define our modern world.
+                  </p>
                 </div>
               </div>
 
@@ -181,9 +175,33 @@ const HomePage = () => {
               </div>
             </div>
 
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                  <div className="bg-slate-700/30 p-4 rounded-lg">
+                    <BookOpen className="h-6 w-6 text-cyan-400 mb-2" />
+                    <h3 className="text-white font-semibold mb-2">Current Focus</h3>
+                    <p className="text-slate-400 text-sm">Student exploring engineering disciplines</p>
+                  </div>
+                  <div className="bg-slate-700/30 p-4 rounded-lg">
+                    <Target className="h-6 w-6 text-blue-400 mb-2" />
+                    <h3 className="text-white font-semibold mb-2">Future Goals</h3>
+                    <p className="text-slate-400 text-sm">Pursuing mechanical engineering</p>
+                  </div>
+
+                  <div className="bg-slate-700/30 p-4 rounded-lg">
+                    <Cog className="h-6 w-6 text-green-400 mb-2" />
+                    <h3 className="text-white font-semibold mb-2">Interests</h3>
+                    <p className="text-slate-400 text-sm">Mechanical systems & innovation</p>
+                  </div>
+                  <div className="bg-slate-700/30 p-4 rounded-lg">
+                    <Zap className="h-6 w-6 text-purple-400 mb-2" />
+                    <h3 className="text-white font-semibold mb-2">Mission</h3>
+                    <p className="text-slate-400 text-sm">Sharing engineering history</p>
+                  </div>
+            </div>
+
             <div className="mt-8 pt-6 border-t border-slate-700/50">
               <h3 className="text-2xl font-bold text-white mb-4">Why ChronoMech?</h3>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-lg text-slate-300 leading-relaxed">
                 The name "ChronoMech" combines "Chronos" (time) and "Mechanical" - representing 
                 the journey through time to explore mechanical engineering innovations. This website 
                 is my way of documenting and sharing the incredible evolution of engineering that 

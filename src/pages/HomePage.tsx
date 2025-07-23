@@ -232,7 +232,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center border-4 border-slate-900">
-                  <User className="h-8 w-8 text-white" />
+                  <Cog className="h-8 w-8 text-white" />
                 </div>
                 <div className="flex-1 pl-8"></div>
               </div>
@@ -271,7 +271,7 @@ const HomePage = () => {
               <div className="relative flex items-center">
                 <div className="flex-1 pr-8"></div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center border-4 border-slate-900">
-                  <User className="h-8 w-8 text-white" />
+                  <Car className="h-8 w-8 text-white" />
                 </div>
                 <div className="flex-1 pl-8">
                   <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-6">

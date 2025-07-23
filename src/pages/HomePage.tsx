@@ -178,23 +178,23 @@ const HomePage = () => {
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <BookOpen className="h-6 w-6 text-cyan-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Current Focus</h3>
-                    <p className="text-slate-400 text-sm">In school pursuing high-level physics, math, and history</p>
+                    <p className="text-slate-400 text-sm">Currently in school pursuing high-level physics, mathematics, and history</p>
                   </div>
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Target className="h-6 w-6 text-blue-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Future Goals</h3>
-                    <p className="text-slate-400 text-sm">To pursue mech eng</p>
+                    <p className="text-slate-400 text-sm">To pursue mechanical engineering</p>
                   </div>
 
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Cog className="h-6 w-6 text-green-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Interests</h3>
-                    <p className="text-slate-400 text-sm">Remedial teaching and understanding mechanical innovation</p>
+                    <p className="text-slate-400 text-sm">Teaching and understanding mechanical innovation</p>
                   </div>
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Zap className="h-6 w-6 text-purple-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Mission</h3>
-                    <p className="text-slate-400 text-sm">Making the world filled with engineers of different types who recognize it is important to look in the past to build a better future</p>
+                    <p className="text-slate-400 text-sm">Creating a world filled with engineers who recognize the importance of learning from the past to build a better future</p>
                   </div>
             </div>
 

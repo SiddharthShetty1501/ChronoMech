@@ -43,23 +43,65 @@ const HomePage = () => {
 
   return (
     <div className="relative min-h-screen">
+      {/* Floating background elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-20 left-10 w-2 h-2 bg-cyan-400 rounded-full animate-ping opacity-20"></div>
+        <div className="absolute top-40 right-20 w-1 h-1 bg-blue-400 rounded-full animate-ping opacity-30 delay-500"></div>
+        <div className="absolute top-60 left-1/4 w-1.5 h-1.5 bg-purple-400 rounded-full animate-ping opacity-25 delay-1000"></div>
+        <div className="absolute top-80 right-1/3 w-1 h-1 bg-green-400 rounded-full animate-ping opacity-20 delay-1500"></div>
+      </div>
+
       {/* Hero Section */}
-      <div className="relative pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+      <div className="relative pt-8 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
+          {/* Breadcrumb/Navigation hint */}
+          <div className="flex justify-center mb-6">
+            <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-full px-4 py-2">
+              <span className="text-cyan-400 text-sm font-medium">Welcome to ChronoMech</span>
+              <span className="text-slate-400 text-sm mx-2">•</span>
+              <span className="text-slate-400 text-sm">Mechanical Engineering History</span>
+            </div>
+          </div>
+
           <div className="flex justify-center mb-8">
             <div className="relative">
-              <Zap className="h-20 w-20 text-cyan-400 animate-pulse" />
-              <div className="absolute inset-0 h-20 w-20 text-cyan-400 animate-ping opacity-20">
-                <Zap className="h-20 w-20" />
+              <Zap className="h-24 w-24 text-cyan-400 animate-pulse" />
+              <div className="absolute inset-0 h-24 w-24 text-cyan-400 animate-ping opacity-20">
+                <Zap className="h-24 w-24" />
+              </div>
+              {/* Additional decorative elements around the main icon */}
+              <div className="absolute -top-2 -right-2">
+                <Cog className="h-6 w-6 text-blue-400 animate-spin-slow opacity-60" />
+              </div>
+              <div className="absolute -bottom-2 -left-2">
+                <Wrench className="h-5 w-5 text-purple-400 animate-bounce opacity-50" />
               </div>
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-8">
             <span className="text-white">Engineering </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Through Time</span>
           </h1>
           
+          {/* Stats/Quick facts */}
+          <div className="flex justify-center mb-8">
+            <div className="grid grid-cols-3 gap-8 text-center">
+              <div className="bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 rounded-lg p-4">
+                <div className="text-2xl font-bold text-cyan-400">300+</div>
+                <div className="text-sm text-slate-400">Years Covered</div>
+              </div>
+              <div className="bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 rounded-lg p-4">
+                <div className="text-2xl font-bold text-blue-400">6</div>
+                <div className="text-sm text-slate-400">Major Topics</div>
+              </div>
+              <div className="bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 rounded-lg p-4">
+                <div className="text-2xl font-bold text-purple-400">∞</div>
+                <div className="text-sm text-slate-400">Innovation</div>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 mb-8 max-w-4xl mx-auto">
             <blockquote className="text-lg italic text-slate-300 text-center leading-relaxed">
               "The engineer has been, and is, a maker of history."

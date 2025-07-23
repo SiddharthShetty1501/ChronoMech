@@ -56,10 +56,8 @@ const HomePage = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Engineering
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              Through Time
-            </span>
+            <span className="text-white">Engineering</span>
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Through Time</span>
           </h1>
           
           <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 mb-8 max-w-4xl mx-auto">

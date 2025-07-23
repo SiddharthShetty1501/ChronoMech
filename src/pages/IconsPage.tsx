@@ -1,15 +1,5 @@
 import React from 'react';
-import { 
-  Settings, Cog, Gear, Loader, RefreshCw, RotateCw, RotateCcw, Orbit, Atom, Dna, Compass, Globe, Satellite, Clock, Timer,
-  Wrench, Screwdriver, Drill, Nut, Zap, Power, Bolt, Activity, Radio, Radar, Cpu, CircuitBoard, Microchip, Brain,
-  Factory, Warehouse, Magnet, Waves, Gauge, Thermometer, Battery, Plug, Lightbulb, Flame, Wind, Bot, Target, Award,
-  Rocket, Plane, Train, Car, Truck, Bus, Tractor, Ship, Sailboat, Construction, Crane, Building, HardHat,
-  Microscope, FlaskConical, Beaker, TestTube, Pickaxe, Shovel, Axe, Hammer, Trophy, Medal,
-  Home, User, Mail, Phone, Calendar, Search, Filter, Download, Upload, Edit, Trash, Save, Copy, Share,
-  Heart, Star, Bookmark, Flag, Tag, Lock, Unlock, Eye, EyeOff, Volume2, VolumeX, Play, Pause, Stop,
-  ArrowUp, ArrowDown, ArrowLeft, ArrowRight, ChevronUp, ChevronDown, ChevronLeft, ChevronRight,
-  Plus, Minus, X, Check, AlertCircle, Info, HelpCircle, Menu, MoreHorizontal, MoreVertical
-} from 'lucide-react';
+import { Settings, Cog, Heart as Gear, Loader, RefreshCw, RotateCw, RotateCcw, Orbit, Atom, Dna, Compass, Globe, Satellite, Clock, Timer, Wrench, HardDrive as Screwdriver, Drill, Nut, Zap, Power, Bolt, Activity, Radio, Radar, Cpu, CircuitBoard, Microwave as Microchip, Brain, Factory, Warehouse, Magnet, Waves, Gauge, Thermometer, Battery, Plug, Lightbulb, Flame, Wind, Bot, Target, Award, Rocket, Plane, Train, Car, Truck, Bus, Tractor, Ship, Sailboat, Construction, Plane as Crane, Building, HardHat, Microscope, FlaskConical, Beaker, TestTube, Pickaxe, Shovel, Axe, Hammer, Trophy, Medal, Home, User, Mail, Phone, Calendar, Search, Filter, Download, Upload, Edit, Trash, Save, Copy, Share, Heart, Star, Bookmark, Flag, Tag, Lock, Unlock, Eye, EyeOff, Volume2, VolumeX, Play, Pause, Store as Stop, ArrowUp, ArrowDown, ArrowLeft, ArrowRight, ChevronUp, ChevronDown, ChevronLeft, ChevronRight, Plus, Minus, X, Check, AlertCircle, Info, HelpCircle, Menu, MoreHorizontal, MoreVertical } from 'lucide-react';
 
 const IconsPage = () => {
   const animatedIcons = [

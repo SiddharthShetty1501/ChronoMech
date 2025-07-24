@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Cog, Wrench, Settings, Zap } from 'lucide-react';
+import { ArrowLeft, Settings, Wrench, Zap, Gauge } from 'lucide-react';
 
 const SleeveValveEnginePage = () => {
   return (
@@ -17,7 +17,7 @@ const SleeveValveEnginePage = () => {
         <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 mb-8">
           <div className="flex items-center mb-6">
             <div className="bg-gradient-to-r from-orange-500 to-red-600 p-3 rounded-xl mr-4">
-              <Cog className="h-8 w-8 text-white" />
+              <Settings className="h-8 w-8 text-white" />
             </div>
             <h1 className="text-4xl font-bold text-white">The Silent Stroke</h1>
             <div className="ml-4 text-slate-400 text-lg">How the Sleeve Valve Engine Redefined Mechanical Elegance</div>

@@ -28,10 +28,7 @@ const ArticlesPage = () => {
 
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Featured Articles
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              
-            </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Featured</span> Articles
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
             Discover how centuries of invention and ingenuity laid the foundation for modern engineering. Each article traces the breakthroughs, ideas, and mechanical marvels that changed history!

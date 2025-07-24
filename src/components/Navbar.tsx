@@ -42,9 +42,6 @@ const Navbar = () => {
           </Link>
           
           <div className="hidden md:flex items-center space-x-6">
-            <div className="text-slate-400 text-sm hidden lg:block">
-              Exploring mechanical engineering history
-            </div>
             <div className="flex space-x-1">
             {navItems.map((item) => {
               const Icon = item.icon;

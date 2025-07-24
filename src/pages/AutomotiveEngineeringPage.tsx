@@ -52,7 +52,56 @@ const AutomotiveEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Engineering Challenges</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Automotive Engineering</h2>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-cyan-500 pl-6">
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">1769 - First Self-Propelled Vehicle</h3>
+                <p className="text-slate-300">
+                  Nicolas-Joseph Cugnot built the first self-propelled vehicle using a steam engine. 
+                  Though impractical, this three-wheeled vehicle demonstrated that mechanical power 
+                  could replace horses for transportation.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">1885 - Birth of the Modern Automobile</h3>
+                <p className="text-slate-300">
+                  Karl Benz created the Patent-Motorwagen, the first true automobile with an internal 
+                  combustion engine designed specifically for automotive use. This three-wheeled vehicle 
+                  established the foundation for all future cars and the automotive industry.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">1908 - Mass Production Revolution</h3>
+                <p className="text-slate-300">
+                  Henry Ford's Model T, combined with assembly line production, made automobiles affordable 
+                  for ordinary people. This manufacturing revolution reduced production time from 12 hours 
+                  to 93 minutes and democratized personal transportation.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-6">
+                <h3 className="text-xl font-semibold text-green-300 mb-2">1950s-1970s - Safety and Performance Era</h3>
+                <p className="text-slate-300">
+                  Introduction of systematic crash testing, seat belts, and airbags marked a new focus 
+                  on occupant protection. Muscle cars and performance engineering pushed the limits of 
+                  power and speed while safety regulations began shaping design priorities.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-6">
+                <h3 className="text-xl font-semibold text-orange-300 mb-2">1990s-Present - Digital and Electric Era</h3>
+                <p className="text-slate-300">
+                  Electronic fuel injection, ABS, and computer-controlled systems transformed vehicles. 
+                  The Toyota Prius (1997) introduced hybrid technology, leading to today's electric vehicle 
+                  revolution with Tesla and autonomous driving development.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Engineering Challenges</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">

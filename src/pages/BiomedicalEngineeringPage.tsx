@@ -52,7 +52,47 @@ const BiomedicalEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Core Applications</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Biomedical Engineering</h2>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-cyan-500 pl-6">
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Early Medical Devices (1800s-1920s)</h3>
+                <p className="text-slate-300">
+                  Early medical engineering included prosthetic limbs for Civil War veterans, the stethoscope, 
+                  and X-ray machines. Wilhelm Röntgen's discovery of X-rays in 1895 launched medical imaging, 
+                  while early prosthetics used mechanical linkages and springs.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">Electronic Medical Era (1930s-1970s)</h3>
+                <p className="text-slate-300">
+                  The first pacemaker was developed in 1958, followed by defibrillators and heart-lung machines. 
+                  CT scanners (1972) and MRI machines (1977) revolutionized medical imaging. The artificial 
+                  heart and kidney dialysis machines extended and saved countless lives.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">Computer-Aided Medicine (1980s-2000s)</h3>
+                <p className="text-slate-300">
+                  Computer-controlled medical devices, robotic surgery systems, and advanced imaging techniques 
+                  emerged. The da Vinci surgical robot (2000) enabled minimally invasive surgery. Digital 
+                  imaging and telemedicine began transforming healthcare delivery.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-6">
+                <h3 className="text-xl font-semibold text-green-300 mb-2">Modern Era (2000s-Present)</h3>
+                <p className="text-slate-300">
+                  Tissue engineering, gene therapy, and nanotechnology are revolutionizing medicine. 
+                  Brain-computer interfaces control prosthetics with thought. 3D printing creates custom 
+                  implants and organs. AI assists in diagnosis and drug discovery.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Core Applications</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">

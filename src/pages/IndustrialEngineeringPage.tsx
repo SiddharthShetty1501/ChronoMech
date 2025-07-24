@@ -52,7 +52,47 @@ const IndustrialEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Core Methodologies</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Industrial Engineering</h2>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-cyan-500 pl-6">
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Scientific Management Era (1880-1920)</h3>
+                <p className="text-slate-300">
+                  Frederick Taylor pioneered scientific management, studying work methods to improve efficiency. 
+                  Frank and Lillian Gilbreth developed time and motion studies. Henry Ford's assembly line 
+                  revolutionized mass production and established industrial engineering principles.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">Operations Research Era (1940-1970)</h3>
+                <p className="text-slate-300">
+                  World War II drove development of operations research, using mathematical models to optimize 
+                  military logistics. Post-war, these techniques were applied to manufacturing, leading to 
+                  linear programming, queuing theory, and statistical quality control.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">Quality Revolution (1970-1990)</h3>
+                <p className="text-slate-300">
+                  Japanese manufacturers like Toyota developed lean manufacturing and total quality management. 
+                  W. Edwards Deming's quality principles and Six Sigma methodology transformed manufacturing 
+                  by focusing on continuous improvement and defect reduction.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-6">
+                <h3 className="text-xl font-semibold text-green-300 mb-2">Digital Era (1990-Present)</h3>
+                <p className="text-slate-300">
+                  Computer simulation, ERP systems, and data analytics revolutionized industrial engineering. 
+                  Industry 4.0 brings IoT, AI, and digital twins to manufacturing. Modern focus includes 
+                  sustainable operations, global supply chains, and human-robot collaboration.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Core Methodologies</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">

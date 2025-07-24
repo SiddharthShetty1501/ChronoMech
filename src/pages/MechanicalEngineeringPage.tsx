@@ -88,6 +88,46 @@ const MechanicalEngineeringPage = () => {
               </div>
             </div>
 
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Evolution of Mechanical Engineering</h2>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-cyan-500 pl-6">
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Ancient Mechanical Devices</h3>
+                <p className="text-slate-300">
+                  Early civilizations developed simple machines like levers, pulleys, and gears. Greek engineers 
+                  like Archimedes and Hero of Alexandria created mechanical devices that demonstrated fundamental 
+                  principles still used today.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">Industrial Revolution (1760-1840)</h3>
+                <p className="text-slate-300">
+                  The steam engine revolutionized manufacturing and transportation. James Watt's improvements 
+                  to the steam engine made mechanical power widely available, leading to the development of 
+                  factories and mechanized production.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">Mass Production Era (1900-1950)</h3>
+                <p className="text-slate-300">
+                  Henry Ford's assembly line and Frederick Taylor's scientific management principles 
+                  revolutionized manufacturing. This era saw the development of interchangeable parts, 
+                  precision manufacturing, and quality control systems.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-6">
+                <h3 className="text-xl font-semibold text-green-300 mb-2">Computer-Aided Design Era (1960-Present)</h3>
+                <p className="text-slate-300">
+                  The integration of computers transformed mechanical engineering. CAD software, finite element 
+                  analysis, and computer-controlled manufacturing enabled more complex designs and precise 
+                  manufacturing. Modern additive manufacturing (3D printing) is revolutionizing prototyping and production.
+                </p>
+              </div>
+            </div>
+
             <h2 className="text-2xl font-bold text-white mb-4 mt-8">Applications and Industries</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
               Mechanical engineers work across virtually every industry: automotive, aerospace, energy, 

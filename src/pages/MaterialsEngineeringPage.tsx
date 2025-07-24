@@ -52,7 +52,47 @@ const MaterialsEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Material Categories</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Materials Engineering</h2>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-cyan-500 pl-6">
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Stone, Bronze, and Iron Ages (Prehistory-500 AD)</h3>
+                <p className="text-slate-300">
+                  Human civilization progressed through materials: stone tools, bronze alloys (copper + tin), 
+                  and iron smelting. Each material revolution enabled new technologies and shaped society. 
+                  Damascus steel and Roman concrete showed early materials engineering principles.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">Industrial Materials Revolution (1800s-1900s)</h3>
+                <p className="text-slate-300">
+                  Steel production methods (Bessemer process), aluminum extraction, and the first synthetic 
+                  plastics (Bakelite, 1907) emerged. Portland cement enabled modern construction. The periodic 
+                  table helped scientists understand material properties systematically.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">Polymer and Aerospace Era (1930s-1970s)</h3>
+                <p className="text-slate-300">
+                  World War II drove development of synthetic rubber, nylon, and fiberglass. The space race 
+                  created superalloys for jet engines and heat shields. Semiconductors like silicon enabled 
+                  the electronics revolution. Composite materials combined strength with light weight.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-6">
+                <h3 className="text-xl font-semibold text-green-300 mb-2">Nanotechnology Era (1980s-Present)</h3>
+                <p className="text-slate-300">
+                  Scanning tunneling microscopy enabled atomic-scale manipulation. Carbon nanotubes, graphene, 
+                  and quantum dots showed unique properties. Smart materials, biomaterials, and sustainable 
+                  materials address modern challenges. AI now accelerates materials discovery.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Material Categories</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">

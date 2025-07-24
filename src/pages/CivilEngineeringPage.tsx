@@ -52,38 +52,42 @@ const CivilEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Historical Achievements</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Civil Engineering</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">
-                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Ancient Engineering Marvels</h3>
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Ancient Civilizations (3000 BC - 500 AD)</h3>
                 <p className="text-slate-300">
-                  Roman engineers built roads, aqueducts, and structures that lasted millennia. The Pantheon's 
-                  concrete dome and extensive road network demonstrate the enduring principles of civil engineering.
+                  Ancient civilizations built pyramids, aqueducts, and roads that still inspire engineers today. 
+                  Roman concrete, Chinese Great Wall, and Mesopotamian irrigation systems demonstrated early 
+                  mastery of materials, structures, and hydraulics.
                 </p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-6">
-                <h3 className="text-xl font-semibold text-blue-300 mb-2">Industrial Revolution Infrastructure</h3>
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">Industrial Revolution (1760-1840)</h3>
                 <p className="text-slate-300">
-                  The 19th century brought canals, railways, and steel-frame buildings. Engineers like Isambard 
-                  Kingdom Brunel revolutionized transportation with innovative bridges and railway systems.
+                  The need for transportation infrastructure led to canal systems, railways, and iron bridges. 
+                  Engineers like Isambard Kingdom Brunel pioneered new construction techniques and materials, 
+                  including the first iron ships and suspension bridges.
                 </p>
               </div>
 
               <div className="border-l-4 border-purple-500 pl-6">
-                <h3 className="text-xl font-semibold text-purple-300 mb-2">Modern Skyscrapers and Megaprojects</h3>
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">Steel and Concrete Era (1880-1950)</h3>
                 <p className="text-slate-300">
-                  The development of steel and reinforced concrete enabled skyscrapers and massive infrastructure 
-                  projects like the Panama Canal, transforming cities and global commerce.
+                  Steel-frame construction and reinforced concrete revolutionized building design. The first 
+                  skyscrapers, massive dams like Hoover Dam, and projects like the Panama Canal demonstrated 
+                  the power of modern engineering and project management.
                 </p>
               </div>
 
               <div className="border-l-4 border-green-500 pl-6">
-                <h3 className="text-xl font-semibold text-green-300 mb-2">Sustainable and Smart Infrastructure</h3>
+                <h3 className="text-xl font-semibold text-green-300 mb-2">Modern Era (1950-Present)</h3>
                 <p className="text-slate-300">
-                  Modern civil engineering focuses on sustainability, resilience, and smart systems. Green buildings, 
-                  renewable energy infrastructure, and IoT-enabled cities represent the future of the field.
+                  Computer-aided design, advanced materials, and environmental awareness transformed civil engineering. 
+                  Today's focus includes sustainable design, smart cities, resilient infrastructure, and climate 
+                  adaptation. BIM technology and IoT sensors enable smarter infrastructure management.
                 </p>
               </div>
             </div>

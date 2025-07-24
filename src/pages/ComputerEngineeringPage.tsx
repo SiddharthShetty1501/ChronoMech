@@ -52,38 +52,42 @@ const ComputerEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Computing</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Computer Engineering</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">
-                <h3 className="text-xl font-semibold text-cyan-300 mb-2">Mechanical Calculators to Electronic Computers</h3>
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">1800s - Mechanical Computing</h3>
                 <p className="text-slate-300">
-                  From Charles Babbage's Analytical Engine to ENIAC, the first general-purpose electronic computer, 
-                  the evolution from mechanical to electronic computation laid the foundation for the digital age.
+                  Charles Babbage designed the Analytical Engine, the first concept for a general-purpose computer. 
+                  Ada Lovelace wrote the first computer algorithm. These mechanical designs laid the theoretical 
+                  foundation for modern computing.
                 </p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-6">
-                <h3 className="text-xl font-semibold text-blue-300 mb-2">The Transistor Revolution</h3>
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">1940s - Electronic Computing Era</h3>
                 <p className="text-slate-300">
-                  The invention of the transistor in 1947 replaced vacuum tubes, enabling smaller, faster, and 
-                  more reliable computers. This breakthrough made personal computers and mobile devices possible.
+                  ENIAC, the first general-purpose electronic computer, used vacuum tubes and weighed 30 tons. 
+                  The invention of the transistor in 1947 at Bell Labs revolutionized electronics, replacing 
+                  bulky vacuum tubes with tiny, reliable switches.
                 </p>
               </div>
 
               <div className="border-l-4 border-purple-500 pl-6">
-                <h3 className="text-xl font-semibold text-purple-300 mb-2">Integrated Circuits and Microprocessors</h3>
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">1960s-1970s - Integrated Circuits</h3>
                 <p className="text-slate-300">
-                  The development of integrated circuits and the first microprocessor (Intel 4004) in 1971 
-                  revolutionized computing, enabling the personal computer revolution and modern embedded systems.
+                  Jack Kilby and Robert Noyce independently invented the integrated circuit, putting multiple 
+                  transistors on a single chip. Intel's 4004 microprocessor in 1971 put an entire CPU on one chip, 
+                  launching the microprocessor revolution.
                 </p>
               </div>
 
               <div className="border-l-4 border-green-500 pl-6">
-                <h3 className="text-xl font-semibold text-green-300 mb-2">Internet and Networking</h3>
+                <h3 className="text-xl font-semibold text-green-300 mb-2">1980s-Present - Personal Computing & Internet</h3>
                 <p className="text-slate-300">
-                  The development of networking protocols, the Internet, and wireless communication transformed 
-                  isolated computers into a globally connected network, enabling the information age.
+                  Personal computers became mainstream with the IBM PC and Apple computers. The development of 
+                  the Internet, World Wide Web, and mobile computing transformed society. Today's focus is on 
+                  AI hardware, quantum computing, and edge computing.
                 </p>
               </div>
             </div>

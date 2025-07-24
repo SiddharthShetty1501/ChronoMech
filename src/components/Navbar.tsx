@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Cog, Home, Grid, Settings } from 'lucide-react';
+import { Cog, Home, Grid, Settings, Wrench } from 'lucide-react';
 
 const Navbar = () => {
   const location = useLocation();
@@ -16,7 +16,8 @@ const Navbar = () => {
 
   const navItems = [
     { path: '/', label: 'Home', icon: Home },
-    { path: '/articles', label: 'Articles', icon: Grid },
+    { path: '/engineering-disciplines', label: 'Disciplines', icon: Wrench },
+    { path: '/articles', label: 'Featured', icon: Grid },
     { path: '/icons', label: 'Icons', icon: Cog },
   ];
 

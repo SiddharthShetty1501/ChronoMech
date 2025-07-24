@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ArticlesPage from './pages/ArticlesPage';
+import EngineeringDisciplinesPage from './pages/EngineeringDisciplinesPage';
 import SteamEnginesPage from './pages/SteamEnginesPage';
 import BridgesPage from './pages/BridgesPage';
 import AerospacePage from './pages/AerospacePage';
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/articles" element={<ArticlesPage />} />
+          <Route path="/engineering-disciplines" element={<EngineeringDisciplinesPage />} />
           <Route path="/steam-engines" element={<SteamEnginesPage />} />
           <Route path="/bridges" element={<BridgesPage />} />
           <Route path="/aerospace" element={<AerospacePage />} />

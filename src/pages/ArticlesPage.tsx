@@ -28,13 +28,13 @@ const ArticlesPage = () => {
 
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Featured
+            Articles
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              Articles
+              & Features
             </span>
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Discover our featured articles showcasing cutting-edge innovations and future technologies. 
+            Discover our articles showcasing cutting-edge innovations and future technologies. 
             These in-depth explorations highlight the most exciting developments in modern engineering.
           </p>
         </div>

@@ -5,12 +5,12 @@ import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Rocket } from 'luc
 const ArticlesPage = () => {
   const articles = [
     {
-      title: 'Future of Flying',
-      description: 'Exploring the next generation of aviation technology and space travel with the revolutionary Aetherion X9 aircraft',
-      icon: Rocket,
-      path: '/future-of-flying',
+      title: 'The Silent Stroke',
+      description: 'How the sleeve valve engine redefined mechanical elegance through innovative engineering that challenged conventional wisdom',
+      icon: Cog,
+      path: '/sleeve-valve-engine',
       color: 'from-orange-500 to-red-600',
-      topics: ['Electric Aviation', 'Urban Air Mobility', 'Supersonic Flight', 'Space Tourism'],
+      topics: ['Sleeve Valve Technology', 'Knight Engine', 'Bristol Aircraft', 'Mechanical Innovation'],
       featured: true
     }
   ];

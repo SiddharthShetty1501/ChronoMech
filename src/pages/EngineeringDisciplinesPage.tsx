@@ -108,6 +108,22 @@ const EngineeringDisciplinesPage = () => {
       color: 'from-red-500 to-pink-600',
       topics: ['Medical Devices', 'Prosthetics', 'Imaging Systems', 'Biotechnology']
     }
+    {
+      title: 'Environmental Engineering',
+      description: 'Protecting human health and the environment through sustainable engineering solutions',
+      icon: Waves,
+      path: '/environmental-engineering',
+      color: 'from-emerald-500 to-green-600',
+      topics: ['Water Treatment', 'Air Quality', 'Waste Management', 'Sustainability']
+    },
+    {
+      title: 'Materials Engineering',
+      description: 'Developing and optimizing materials with specific properties for various applications',
+      icon: Atom,
+      path: '/materials-engineering',
+      color: 'from-violet-500 to-purple-600',
+      topics: ['Composites', 'Metallurgy', 'Polymers', 'Nanomaterials']
+    }
   ];
 
   return (

@@ -81,7 +81,7 @@ const HomePage = () => {
               </div>
               <div className="bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 rounded-lg p-4">
                 <div className="text-2xl font-bold text-purple-400">∞</div>
-                <div className="text-sm text-slate-400">Innovation</div>
+                <div className="text-sm text-slate-400">Ingenuity</div>
               </div>
             </div>
           </div>

@@ -131,19 +131,19 @@ const HomePage = () => {
               <div className="lg:col-span-3 space-y-6 pr-6">
                 <div className="prose prose-invert max-w-none">
                   <p className="text-xl text-slate-300 leading-relaxed mb-6">
-                    Welcome to ChronoMech! I'm Siddharth Shetty, passionate about mechanical engineering 
-                    and the incredible innovations that have shaped our world.
+                    Hi, I'm Siddharth Shetty — someone who's always trying to figure out why people built things the way they did. ChronoMech is my space to explore how mechanical engineering evolved through moments of intuition, experimentation, and sometimes chaos.
                   </p>
                   
                   <p className="text-lg text-slate-300 leading-relaxed mb-4">
-                    Currently in school pursuing high-level physics, mathematics, and history, 
-                    I created ChronoMech to explore the fascinating stories behind humanity's 
-                    greatest technical achievements.
+                    I study Physics, Math, and History at the higher level, and somewhere along the way I got hooked on connecting the logic of machines with the mindset of the people behind them. I've always found it more interesting to look at how ideas developed over time, not just what worked in the end.
+                  </p>
+
+                  <p className="text-lg text-slate-300 leading-relaxed mb-4">
+                    This site isn't just about cool inventions. It's about understanding how design choices were made, how failures taught more than success ever could, and how the past is full of unfinished ideas worth revisiting.
                   </p>
 
                   <p className="text-lg text-slate-300 leading-relaxed">
-                    My mission is to make the world filled with engineers of different types 
-                    who recognize it is important to look in the past to build a better future.
+                    If you've ever stared at a weird old mechanism and thought, <em>wait... that's kind of genius</em> — welcome. You're in the right place!
                   </p>
                 </div>
               </div>
@@ -162,23 +162,23 @@ const HomePage = () => {
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <BookOpen className="h-6 w-6 text-cyan-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Current Focus</h3>
-                    <p className="text-slate-400 text-sm">Currently in school pursuing high-level physics, mathematics, and history</p>
+                    <p className="text-slate-400 text-sm">Studying Physics, Math, and History at the higher level</p>
                   </div>
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Target className="h-6 w-6 text-blue-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Future Goals</h3>
-                    <p className="text-slate-400 text-sm">To pursue mechanical engineering</p>
+                    <h3 className="text-white font-semibold mb-2">Passion</h3>
+                    <p className="text-slate-400 text-sm">Connecting machine logic with human mindset</p>
                   </div>
 
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Cog className="h-6 w-6 text-green-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Interests</h3>
-                    <p className="text-slate-400 text-sm">Teaching and understanding mechanical innovation</p>
+                    <h3 className="text-white font-semibold mb-2">Focus</h3>
+                    <p className="text-slate-400 text-sm">How ideas developed over time, not just what worked</p>
                   </div>
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Zap className="h-6 w-6 text-purple-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Mission</h3>
-                    <p className="text-slate-400 text-sm">Creating a world filled with engineers who recognize the importance of learning from the past to build a better future</p>
+                    <p className="text-slate-400 text-sm">Understanding design choices, failures, and unfinished ideas worth revisiting</p>
                   </div>
             </div>
 

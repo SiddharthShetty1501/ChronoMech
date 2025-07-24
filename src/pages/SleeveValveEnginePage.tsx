@@ -140,16 +140,6 @@ const SleeveValveEnginePage = () => {
               The advent of the jet engine in the late 1940s effectively ended the development of high-performance piston engines for aircraft applications. For automotive use, the sleeve valve's complexity and cost made it uncompetitive with simpler, more reliable poppet valve designs that were "good enough" for most applications.
             </p>
 
-            {/* Historian Quote Space */}
-            <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 mb-8">
-              <blockquote className="text-lg italic text-slate-300 text-center leading-relaxed">
-                [Space for historian quote about the technology's decline]
-              </blockquote>
-              <cite className="block text-cyan-400 text-center mt-3 font-medium">
-                — [Historian name and credentials]
-              </cite>
-            </div>
-
             <h2 className="text-2xl font-bold text-white mb-4">Legacy of Innovation</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
               Though sleeve valve engines disappeared from mainstream use by the 1950s, their influence on engineering thinking persists. They demonstrated that conventional solutions aren't always the best solutions, and that breakthrough performance often requires breakthrough thinking.
@@ -174,15 +164,6 @@ const SleeveValveEnginePage = () => {
               In our current era of rapid technological change, the sleeve valve engine serves as both inspiration and cautionary tale. It shows us the importance of pushing technical boundaries while also understanding the practical constraints that determine which innovations succeed and which remain fascinating footnotes in engineering history.
             </p>
 
-            {/* Final Historian Quote Space */}
-            <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 mb-8">
-              <blockquote className="text-lg italic text-slate-300 text-center leading-relaxed">
-                [Space for final historian quote about lessons for modern engineering]
-              </blockquote>
-              <cite className="block text-cyan-400 text-center mt-3 font-medium">
-                — [Historian name and credentials]
-              </cite>
-            </div>
           </div>
         </div>
       </div>

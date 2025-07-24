@@ -107,7 +107,7 @@ const EngineeringDisciplinesPage = () => {
       path: '/biomedical-engineering',
       color: 'from-red-500 to-pink-600',
       topics: ['Medical Devices', 'Prosthetics', 'Imaging Systems', 'Biotechnology']
-    }
+    },
     {
       title: 'Environmental Engineering',
       description: 'Protecting human health and the environment through sustainable engineering solutions',

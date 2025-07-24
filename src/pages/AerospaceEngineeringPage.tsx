@@ -52,7 +52,56 @@ const AerospaceEngineeringPage = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Core Disciplines</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Evolution of Aerospace Engineering</h2>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-cyan-500 pl-6">
+                <h3 className="text-xl font-semibold text-cyan-300 mb-2">1783 - First Human Flight</h3>
+                <p className="text-slate-300">
+                  The Montgolfier brothers achieved the first human flight in a hot air balloon in Paris. 
+                  This breakthrough proved that humans could leave the ground and sparked centuries of 
+                  aviation innovation and experimentation.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-6">
+                <h3 className="text-xl font-semibold text-blue-300 mb-2">1903 - Wright Brothers' First Powered Flight</h3>
+                <p className="text-slate-300">
+                  Orville and Wilbur Wright achieved the first powered, sustained, and controlled heavier-than-air 
+                  human flight at Kitty Hawk. Their systematic approach to solving lift, propulsion, and control 
+                  problems established the foundation of modern aeronautical engineering.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-6">
+                <h3 className="text-xl font-semibold text-purple-300 mb-2">1939 - Jet Age Begins</h3>
+                <p className="text-slate-300">
+                  Hans von Ohain's turbojet engine powered the first jet aircraft, the Heinkel He 178. 
+                  This breakthrough eliminated propeller limitations, enabling faster speeds and higher 
+                  altitudes that revolutionized both military and commercial aviation.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-6">
+                <h3 className="text-xl font-semibold text-green-300 mb-2">1957-1969 - Space Race Era</h3>
+                <p className="text-slate-300">
+                  Sputnik launched the space age, followed by Yuri Gagarin's first human spaceflight and 
+                  Apollo 11's moon landing. This era drove rapid advancement in rocket technology, materials 
+                  science, and systems engineering that continues to benefit aerospace today.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-6">
+                <h3 className="text-xl font-semibold text-orange-300 mb-2">1970s-Present - Modern Aerospace</h3>
+                <p className="text-slate-300">
+                  Commercial aviation expanded globally with wide-body jets like the Boeing 747. The Space Shuttle 
+                  introduced reusable spacecraft concepts. Today's focus includes supersonic passenger flight, 
+                  electric aircraft, space tourism, and Mars exploration missions.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-white mb-4 mt-8">Core Disciplines</h2>
             
             <div className="space-y-6">
               <div className="border-l-4 border-cyan-500 pl-6">

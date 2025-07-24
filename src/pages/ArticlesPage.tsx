@@ -34,7 +34,7 @@ const ArticlesPage = () => {
             </span>
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Discover how centuries of invention and ingenuity laid the foundation for modern engineering. Each article traces the breakthroughs, ideas, and mechanical marvels that changed history.
+            Discover how centuries of invention and ingenuity laid the foundation for modern engineering. Each article traces the breakthroughs, ideas, and mechanical marvels that changed history!
           </p>
         </div>
 

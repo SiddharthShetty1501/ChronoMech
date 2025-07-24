@@ -131,7 +131,7 @@ const HomePage = () => {
               <div className="lg:col-span-3 space-y-6 pr-6">
                 <div className="prose prose-invert max-w-none">
                   <p className="text-xl text-slate-300 leading-relaxed mb-6">
-                    Hi, I'm Siddharth Shetty — someone who's always trying to figure out why people built things the way they did. ChronoMech is my space to explore how mechanical engineering evolved through moments of intuition, experimentation, and sometimes chaos.
+                    Hi, I'm Siddharth Shetty — someone who's always trying to figure out why people built things the way they did. ChronoMech is my space to explore how engineering evolved through moments of intuition, experimentation, and sometimes chaos.
                   </p>
                   
                   <p className="text-lg text-slate-300 leading-relaxed mb-4">

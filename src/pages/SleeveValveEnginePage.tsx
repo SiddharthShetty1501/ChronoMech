@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Settings, Wrench, Zap, Gauge } from 'lucide-react';
+import { ArrowLeft, Settings, Wrench, Zap, Gauge, Cog } from 'lucide-react';
 
 const SleeveValveEnginePage = () => {
   return (

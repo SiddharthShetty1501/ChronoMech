@@ -54,27 +54,11 @@ const HomePage = () => {
       {/* Hero Section */}
       <div className="relative pt-8 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          {/* Breadcrumb/Navigation hint */}
-          <div className="flex justify-center mb-6">
-            <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-full px-4 py-2">
-              <span className="text-cyan-400 text-sm font-medium">Welcome to ChronoMech</span>
-              <span className="text-slate-400 text-sm mx-2">•</span>
-              <span className="text-slate-400 text-sm">Mechanical Engineering History</span>
-            </div>
-          </div>
-
           <div className="flex justify-center mb-8">
             <div className="relative">
               <Zap className="h-24 w-24 text-cyan-400 animate-pulse" />
               <div className="absolute inset-0 h-24 w-24 text-cyan-400 animate-ping opacity-20">
                 <Zap className="h-24 w-24" />
-              </div>
-              {/* Additional decorative elements around the main icon */}
-              <div className="absolute -top-2 -right-2">
-                <Cog className="h-6 w-6 text-blue-400 animate-spin-slow opacity-60" />
-              </div>
-              <div className="absolute -bottom-2 -left-2">
-                <Wrench className="h-5 w-5 text-purple-400 animate-bounce opacity-50" />
               </div>
             </div>
           </div>

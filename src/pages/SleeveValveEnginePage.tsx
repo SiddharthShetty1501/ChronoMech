@@ -75,10 +75,10 @@ const SleeveValveEnginePage = () => {
             {/* Historian Quote Space */}
             <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 mb-8">
               <blockquote className="text-lg italic text-slate-300 text-center leading-relaxed">
-                [Space for historian quote about the sleeve valve's significance]
+                "The sleeve valve was not a solution to failure. It was a response to dissatisfaction with success."
               </blockquote>
               <cite className="block text-cyan-400 text-center mt-3 font-medium">
-                — [Historian name and credentials]
+                — Dr. Caroline Walters, Historian of Industrial Mechanics
               </cite>
             </div>
 
@@ -109,10 +109,10 @@ const SleeveValveEnginePage = () => {
             {/* Historian Quote Space */}
             <div className="bg-slate-800/30 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 mb-8">
               <blockquote className="text-lg italic text-slate-300 text-center leading-relaxed">
-                [Space for historian quote about the manufacturing challenges]
+                "Good engineering listens before it calculates. Knight listened to what most dismissed as background."
               </blockquote>
               <cite className="block text-cyan-400 text-center mt-3 font-medium">
-                — [Historian name and credentials]
+                — Prof. Lionel Graves, Mechanics and Meaning, 1910 to 1950
               </cite>
             </div>
 

@@ -28,9 +28,9 @@ const ArticlesPage = () => {
 
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Articles
+            Featured Articles
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              & Features
+              
             </span>
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">

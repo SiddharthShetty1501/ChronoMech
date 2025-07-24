@@ -178,7 +178,7 @@ const HomePage = () => {
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Zap className="h-6 w-6 text-purple-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Mission</h3>
-                    <p className="text-slate-400 text-sm">To help create a generation of engineers who don't just build faster, but think deeper — learning from the past to design smarter solutions for the future</p>
+                    <p className="text-slate-400 text-sm">Creating engineers who think deeper, not just build faster</p>
                   </div>
             </div>
 

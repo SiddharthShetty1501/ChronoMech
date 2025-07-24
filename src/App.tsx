@@ -8,6 +8,15 @@ import ElectricalEngineeringPage from './pages/ElectricalEngineeringPage';
 import ComputerEngineeringPage from './pages/ComputerEngineeringPage';
 import CivilEngineeringPage from './pages/CivilEngineeringPage';
 import AutomotiveEngineeringPage from './pages/AutomotiveEngineeringPage';
+import AerospaceEngineeringPage from './pages/AerospaceEngineeringPage';
+import NuclearEngineeringPage from './pages/NuclearEngineeringPage';
+import ChemicalEngineeringPage from './pages/ChemicalEngineeringPage';
+import MarineEngineeringPage from './pages/MarineEngineeringPage';
+import IndustrialEngineeringPage from './pages/IndustrialEngineeringPage';
+import SatelliteEngineeringPage from './pages/SatelliteEngineeringPage';
+import BiomedicalEngineeringPage from './pages/BiomedicalEngineeringPage';
+import EnvironmentalEngineeringPage from './pages/EnvironmentalEngineeringPage';
+import MaterialsEngineeringPage from './pages/MaterialsEngineeringPage';
 import SteamEnginesPage from './pages/SteamEnginesPage';
 import BridgesPage from './pages/BridgesPage';
 import AerospacePage from './pages/AerospacePage';
@@ -32,6 +41,15 @@ function App() {
           <Route path="/computer-engineering" element={<ComputerEngineeringPage />} />
           <Route path="/civil-engineering" element={<CivilEngineeringPage />} />
           <Route path="/automotive-engineering" element={<AutomotiveEngineeringPage />} />
+          <Route path="/aerospace-engineering" element={<AerospaceEngineeringPage />} />
+          <Route path="/nuclear-engineering" element={<NuclearEngineeringPage />} />
+          <Route path="/chemical-engineering" element={<ChemicalEngineeringPage />} />
+          <Route path="/marine-engineering" element={<MarineEngineeringPage />} />
+          <Route path="/industrial-engineering" element={<IndustrialEngineeringPage />} />
+          <Route path="/satellite-engineering" element={<SatelliteEngineeringPage />} />
+          <Route path="/biomedical-engineering" element={<BiomedicalEngineeringPage />} />
+          <Route path="/environmental-engineering" element={<EnvironmentalEngineeringPage />} />
+          <Route path="/materials-engineering" element={<MaterialsEngineeringPage />} />
           <Route path="/steam-engines" element={<SteamEnginesPage />} />
           <Route path="/bridges" element={<BridgesPage />} />
           <Route path="/aerospace" element={<AerospacePage />} />

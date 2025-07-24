@@ -5,44 +5,28 @@ import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Zap, Cpu, Building
 const EngineeringDisciplinesPage = () => {
   const articles = [
     {
-      title: 'Steam Engines',
-      description: 'The revolutionary machines that powered the Industrial Revolution and transformed manufacturing forever',
+      title: 'Mechanical Engineering',
+      description: 'The foundation of engineering, dealing with design, manufacturing, and maintenance of mechanical systems',
       icon: Cog,
-      path: '/steam-engines',
+      path: '/mechanical-engineering',
       color: 'from-orange-500 to-red-600',
-      topics: ['Industrial Revolution', 'James Watt', 'Steam Power', 'Manufacturing']
-    },
-    {
-      title: 'Engineering Bridges',
-      description: 'Architectural marvels that connect civilizations and showcase structural engineering mastery',
-      icon: Wrench,
-      path: '/bridges',
-      color: 'from-blue-500 to-purple-600',
-      topics: ['Structural Engineering', 'Architecture', 'Civil Engineering', 'Materials']
+      topics: ['Machine Design', 'Thermodynamics', 'Manufacturing', 'Materials Science']
     },
     {
       title: 'Aerospace Engineering',
-      description: 'From Wright brothers\' first flight to space exploration and modern aviation',
+      description: 'Designing aircraft, spacecraft, and propulsion systems for flight and space exploration',
       icon: Plane,
-      path: '/aerospace',
+      path: '/aerospace-engineering',
       color: 'from-cyan-500 to-blue-600',
-      topics: ['Aviation History', 'Space Exploration', 'Aerodynamics', 'Propulsion']
+      topics: ['Aerodynamics', 'Propulsion', 'Flight Dynamics', 'Space Systems']
     },
     {
-      title: 'Automobile Evolution',
-      description: 'The transformation of personal transportation from horse carriages to electric vehicles',
+      title: 'Automotive Engineering',
+      description: 'Specialized field focused on design, development, and manufacturing of vehicles',
       icon: Car,
-      path: '/automobiles',
+      path: '/automotive-engineering',
       color: 'from-green-500 to-teal-600',
-      topics: ['Automotive History', 'Mass Production', 'Electric Vehicles', 'Transportation']
-    },
-    {
-      title: 'Robotics History',
-      description: 'The fascinating journey from ancient automatons to modern AI-powered machines',
-      icon: Bot,
-      path: '/robotics',
-      color: 'from-purple-500 to-pink-600',
-      topics: ['Automation', 'Artificial Intelligence', 'Industrial Robots', 'Future Tech']
+      topics: ['Vehicle Design', 'Powertrain', 'Safety Systems', 'Electric Vehicles']
     },
     {
       title: 'Electrical Engineering',

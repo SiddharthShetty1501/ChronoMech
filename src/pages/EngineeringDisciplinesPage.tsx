@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Zap, Cpu, Building, Waves, Atom, Lightbulb, Hammer, Factory, Satellite, Microscope } from 'lucide-react';
+import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Zap, Cpu, Building, Waves, Atom, Lightbulb, Hammer, Factory, Satellite, Microscope, Ship } from 'lucide-react';
 
 const EngineeringDisciplinesPage = () => {
   const articles = [
@@ -55,7 +55,7 @@ const EngineeringDisciplinesPage = () => {
     {
       title: 'Marine Engineering',
       description: 'Conquering the seas with ships, submarines, and offshore structures',
-      icon: Waves,
+      icon: Ship,
       path: '/marine-engineering',
       color: 'from-blue-600 to-cyan-600',
       topics: ['Naval Architecture', 'Ship Propulsion', 'Offshore Engineering', 'Maritime History']

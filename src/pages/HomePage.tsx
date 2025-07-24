@@ -76,8 +76,8 @@ const HomePage = () => {
                 <div className="text-sm text-slate-400">Years Covered</div>
               </div>
               <div className="bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 rounded-lg p-4">
-                <div className="text-2xl font-bold text-blue-400">6</div>
-                <div className="text-sm text-slate-400">Major Topics</div>
+                <div className="text-2xl font-bold text-blue-400">5</div>
+                <div className="text-sm text-slate-400">Articles</div>
               </div>
               <div className="bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 rounded-lg p-4">
                 <div className="text-2xl font-bold text-purple-400">∞</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Building, Bridge, Road, Droplets } from 'lucide-react';
+import { ArrowLeft, Building, Grid as Bridge, Loader as Road, Droplets } from 'lucide-react';
 
 const CivilEngineeringPage = () => {
   return (

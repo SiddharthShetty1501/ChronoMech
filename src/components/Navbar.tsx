@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Grid, Settings, Wrench } from 'lucide-react';
+import { Home, Grid, Settings, Wrench, Cog } from 'lucide-react';
 
 const Navbar = () => {
   const location = useLocation();

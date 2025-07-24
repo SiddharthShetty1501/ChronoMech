@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ArticlesPage from './pages/ArticlesPage';
 import EngineeringDisciplinesPage from './pages/EngineeringDisciplinesPage';
+import MechanicalEngineeringPage from './pages/MechanicalEngineeringPage';
+import ElectricalEngineeringPage from './pages/ElectricalEngineeringPage';
+import ComputerEngineeringPage from './pages/ComputerEngineeringPage';
+import CivilEngineeringPage from './pages/CivilEngineeringPage';
+import AutomotiveEngineeringPage from './pages/AutomotiveEngineeringPage';
 import SteamEnginesPage from './pages/SteamEnginesPage';
 import BridgesPage from './pages/BridgesPage';
 import AerospacePage from './pages/AerospacePage';
@@ -22,6 +27,11 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/articles" element={<ArticlesPage />} />
           <Route path="/engineering-disciplines" element={<EngineeringDisciplinesPage />} />
+          <Route path="/mechanical-engineering" element={<MechanicalEngineeringPage />} />
+          <Route path="/electrical-engineering" element={<ElectricalEngineeringPage />} />
+          <Route path="/computer-engineering" element={<ComputerEngineeringPage />} />
+          <Route path="/civil-engineering" element={<CivilEngineeringPage />} />
+          <Route path="/automotive-engineering" element={<AutomotiveEngineeringPage />} />
           <Route path="/steam-engines" element={<SteamEnginesPage />} />
           <Route path="/bridges" element={<BridgesPage />} />
           <Route path="/aerospace" element={<AerospacePage />} />

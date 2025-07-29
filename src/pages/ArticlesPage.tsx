@@ -12,6 +12,15 @@ const ArticlesPage = () => {
       color: 'from-orange-500 to-red-600',
       topics: ['Sleeve Valve Technology', 'Knight Engine', 'Bristol Aircraft', 'Mechanical Innovation'],
       featured: true
+    },
+    {
+      title: 'Your New Article Title',
+      description: 'Brief description of what your article covers and why it\'s interesting',
+      icon: Cog,
+      path: '/your-new-article',
+      color: 'from-blue-500 to-purple-600',
+      topics: ['Topic 1', 'Topic 2', 'Topic 3', 'Topic 4'],
+      featured: false
     }
   ];
 

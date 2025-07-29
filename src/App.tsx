@@ -23,6 +23,7 @@ import AerospacePage from './pages/AerospacePage';
 import AutomobilesPage from './pages/AutomobilesPage';
 import RoboticsPage from './pages/RoboticsPage';
 import SleeveValveEnginePage from './pages/SleeveValveEnginePage';
+import YourNewArticlePage from './pages/YourNewArticlePage';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
           <Route path="/automobiles" element={<AutomobilesPage />} />
           <Route path="/robotics" element={<RoboticsPage />} />
           <Route path="/sleeve-valve-engine" element={<SleeveValveEnginePage />} />
+          <Route path="/your-new-article" element={<YourNewArticlePage />} />
         </Routes>
       </div>
     </Router>

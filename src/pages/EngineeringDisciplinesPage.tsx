@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Zap, Cpu, Building, Waves, Atom, Lightbulb, Hammer, Factory, Satellite, Microscope, Ship } from 'lucide-react';
+import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Zap, Cpu, Building, Waves, Atom, Lightbulb, Factory, Satellite, Microscope, Ship } from 'lucide-react';
 
 const EngineeringDisciplinesPage = () => {
   const articles = [
@@ -79,7 +79,7 @@ const EngineeringDisciplinesPage = () => {
     {
       title: 'Mining Engineering',
       description: 'Extracting Earth\'s resources while advancing safety and environmental practices',
-      icon: Hammer,
+      icon: Cog,
       path: '/mining-engineering',
       color: 'from-amber-600 to-orange-700',
       topics: ['Resource Extraction', 'Safety Systems', 'Environmental Impact', 'Mineral Processing']

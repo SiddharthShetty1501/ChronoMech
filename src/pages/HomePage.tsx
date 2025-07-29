@@ -169,7 +169,6 @@ const HomePage = () => {
                     <h3 className="text-white font-semibold mb-2">Passion</h3>
                     <p className="text-slate-400 text-sm">Connecting machine logic with human mindset</p>
                   </div>
-
                   <div className="bg-slate-700/30 p-4 rounded-lg">
                     <Cog className="h-6 w-6 text-green-400 mb-2" />
                     <h3 className="text-white font-semibold mb-2">Focus</h3>

@@ -89,18 +89,6 @@ const ArticlesPage = () => {
           })}
         </div>
 
-        <div className="mt-12 text-center">
-          <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8">
-            <h2 className="text-2xl font-bold text-white mb-4">Looking for More Engineering Topics?</h2>
-            <p className="text-slate-300 leading-relaxed mb-6">
-              Explore our comprehensive collection of engineering disciplines covering mechanical, electrical, 
-              civil, aerospace, and many other fields of engineering.
-            </p>
-            <Link to="/engineering-disciplines" className="inline-flex items-center text-cyan-400 hover:text-cyan-300 font-medium">
-              Browse All Engineering Disciplines <ArrowRight className="h-4 w-4 ml-2" />
-            </Link>
-          </div>
-        </div>
       </div>
     </div>
   );

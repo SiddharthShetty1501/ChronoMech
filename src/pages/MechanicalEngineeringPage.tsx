@@ -7,11 +7,11 @@ const MechanicalEngineeringPage = () => {
     <div className="relative min-h-screen pt-8 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <Link 
-          to="/engineering-disciplines" 
+          to="/" 
           className="inline-flex items-center text-cyan-400 hover:text-cyan-300 mb-8 transition-colors"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to Engineering Disciplines
+          Back to Home
         </Link>
 
         <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 mb-8">

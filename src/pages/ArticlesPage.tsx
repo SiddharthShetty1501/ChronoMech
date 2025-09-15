@@ -5,15 +5,6 @@ import { ArrowLeft, Cog, Wrench, Plane, Car, Bot, ArrowRight, Rocket } from 'luc
 const ArticlesPage = () => {
   const articles = [
     {
-      title: 'The Silent Stroke',
-      description: 'How the sleeve valve engine redefined mechanical elegance through innovative engineering that challenged conventional wisdom',
-      icon: Cog,
-      path: '/sleeve-valve-engine',
-      color: 'from-orange-500 to-red-600',
-      topics: ['Sleeve Valve Technology', 'Knight Engine', 'Bristol Aircraft', 'Mechanical Innovation'],
-      featured: true
-    },
-    {
       title: 'Your New Article Title',
       description: 'Brief description of what your article covers and why it\'s interesting',
       icon: Cog,

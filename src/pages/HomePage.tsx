@@ -116,71 +116,141 @@ const HomePage = () => {
         </div>
       </div>
 
+      {/* Featured Articles Preview */}
+      <div className="relative px-4 sm:px-6 lg:px-8 pb-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-white mb-4">Featured Articles</h2>
+            <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+              Dive deep into the engineering marvels that shaped our world
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {articles.map((article, index) => {
+              const Icon = article.icon;
+              return (
+                <Link
+                  key={article.path}
+                  to={article.path}
+                  className="group bg-slate-800/40 backdrop-blur-sm border border-slate-700/40 rounded-xl p-6 hover:bg-slate-800/60 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/10"
+                >
+                  <div className={`inline-flex p-3 rounded-lg bg-gradient-to-r ${article.color} mb-4`}>
+                    <Icon className="h-6 w-6 text-white" />
+                  </div>
+                  
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-300 transition-colors">
+                    {article.title}
+                  </h3>
+                  
+                  <p className="text-slate-400 text-sm leading-relaxed mb-4">
+                    {article.description}
+                  </p>
+                  
+                  <div className="flex items-center text-cyan-400 group-hover:text-cyan-300 transition-colors text-sm">
+                    <span className="font-medium">Read More</span>
+                    <ArrowRight className="h-3 w-3 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {/* Engineering Timeline */}
+      <div className="relative px-4 sm:px-6 lg:px-8 pb-12">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-white mb-4">Engineering Through the Ages</h2>
+            <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+              Key moments that defined mechanical engineering
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <div className="bg-slate-800/40 backdrop-blur-sm border border-slate-700/40 rounded-xl p-6 text-center">
+              <div className="text-3xl font-bold text-cyan-400 mb-2">1712</div>
+              <div className="text-white font-semibold mb-2">Steam Engine</div>
+              <div className="text-slate-400 text-sm">Newcomen's atmospheric engine</div>
+            </div>
+            <div className="bg-slate-800/40 backdrop-blur-sm border border-slate-700/40 rounded-xl p-6 text-center">
+              <div className="text-3xl font-bold text-blue-400 mb-2">1885</div>
+              <div className="text-white font-semibold mb-2">Automobile</div>
+              <div className="text-slate-400 text-sm">Benz Patent-Motorwagen</div>
+            </div>
+            <div className="bg-slate-800/40 backdrop-blur-sm border border-slate-700/40 rounded-xl p-6 text-center">
+              <div className="text-3xl font-bold text-purple-400 mb-2">1903</div>
+              <div className="text-white font-semibold mb-2">Powered Flight</div>
+              <div className="text-slate-400 text-sm">Wright Brothers' first flight</div>
+            </div>
+            <div className="bg-slate-800/40 backdrop-blur-sm border border-slate-700/40 rounded-xl p-6 text-center">
+              <div className="text-3xl font-bold text-green-400 mb-2">1954</div>
+              <div className="text-white font-semibold mb-2">Industrial Robot</div>
+              <div className="text-slate-400 text-sm">First programmable robot</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* About Me Section */}
       <div className="relative px-4 sm:px-6 lg:px-8 pb-12">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-slate-800/40 backdrop-blur-sm border border-slate-700/40 rounded-2xl p-8">
             <div className="flex items-center mb-6">
               <div className="bg-gradient-to-r from-cyan-500 to-blue-600 p-3 rounded-xl mr-4">
                 <User className="h-8 w-8 text-white" />
               </div>
-              <h2 className="text-4xl font-bold text-white">About Me</h2>
+              <h2 className="text-3xl font-bold text-white">About Me</h2>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-8">
-              <div className="lg:col-span-3 space-y-6 pr-6">
-                <div className="prose prose-invert max-w-none">
-                  <p className="text-xl text-slate-300 leading-relaxed mb-6">
-                    Hi, I'm Siddharth Shetty — someone who's always trying to figure out why people built things the way they did. ChronoMech is my space to explore how engineering evolved through moments of intuition, experimentation, and sometimes chaos.
-                  </p>
-                  
-                  <p className="text-lg text-slate-300 leading-relaxed mb-4">
-                    I study Physics, Math, and History at the higher level, and somewhere along the way I got hooked on connecting the logic of machines with the mindset of the people behind them. I've always found it more interesting to look at how ideas developed over time, not just what worked in the end.
-                  </p>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-6">
+              <div className="lg:col-span-2">
+                <p className="text-lg text-slate-300 leading-relaxed mb-4">
+                  Hi, I'm Siddharth Shetty — someone who's always trying to figure out why people built things the way they did. ChronoMech is my space to explore how engineering evolved through moments of intuition, experimentation, and sometimes chaos.
+                </p>
+                
+                <p className="text-slate-300 leading-relaxed mb-4">
+                  I study Physics, Math, and History at the higher level, and got hooked on connecting the logic of machines with the mindset of the people behind them. This site explores how design choices were made and how failures taught more than success ever could.
+                </p>
 
-                  <p className="text-lg text-slate-300 leading-relaxed mb-4">
-                    This site isn't just about cool inventions. It's about understanding how design choices were made, how failures taught more than success ever could, and how the past is full of unfinished ideas worth revisiting.
-                  </p>
-
-                  <p className="text-lg text-slate-300 leading-relaxed">
-                    If you've ever stared at a weird old mechanism and thought, <em>wait... that's kind of genius</em> — welcome. You're in the right place!
-                  </p>
-                </div>
+                <p className="text-slate-300 leading-relaxed">
+                  If you've ever stared at a weird old mechanism and thought, <em>wait... that's kind of genius</em> — welcome. You're in the right place!
+                </p>
               </div>
               <div className="lg:col-span-1 flex items-start justify-center">
-                <div className="bg-slate-700/30 p-6 rounded-2xl border border-slate-600/30">
+                <div className="bg-slate-700/30 p-4 rounded-xl border border-slate-600/30">
                   <img 
                     src="/a3f12681-ce95-435f-9a9a-5ab652395061 copy.JPG" 
                     alt="Siddharth Shetty" 
-                    className="w-40 h-40 object-cover rounded-xl border-2 border-cyan-500/30"
+                    className="w-32 h-32 object-cover rounded-lg border-2 border-cyan-500/30"
                   />
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-                  <div className="bg-slate-700/30 p-4 rounded-lg">
-                    <BookOpen className="h-6 w-6 text-cyan-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Current Focus</h3>
-                    <p className="text-slate-400 text-sm">Studying Physics, Math, and History at the higher level</p>
-                  </div>
-                  <div className="bg-slate-700/30 p-4 rounded-lg">
-                    <Target className="h-6 w-6 text-blue-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Passion</h3>
-                    <p className="text-slate-400 text-sm">Connecting machine logic with human mindset</p>
-                  </div>
-                  <div className="bg-slate-700/30 p-4 rounded-lg">
-                    <Cog className="h-6 w-6 text-green-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Focus</h3>
-                    <p className="text-slate-400 text-sm">How ideas developed over time, not just what worked</p>
-                  </div>
-                  <div className="bg-slate-700/30 p-4 rounded-lg">
-                    <Zap className="h-6 w-6 text-purple-400 mb-2" />
-                    <h3 className="text-white font-semibold mb-2">Mission</h3>
-                    <p className="text-slate-400 text-sm">Creating engineers who think deeper, not just build faster</p>
-                  </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="bg-slate-700/30 p-3 rounded-lg text-center">
+                <BookOpen className="h-5 w-5 text-cyan-400 mx-auto mb-2" />
+                <h3 className="text-white font-semibold text-sm mb-1">Studies</h3>
+                <p className="text-slate-400 text-xs">Physics, Math, History</p>
+              </div>
+              <div className="bg-slate-700/30 p-3 rounded-lg text-center">
+                <Target className="h-5 w-5 text-blue-400 mx-auto mb-2" />
+                <h3 className="text-white font-semibold text-sm mb-1">Passion</h3>
+                <p className="text-slate-400 text-xs">Machine logic & mindset</p>
+              </div>
+              <div className="bg-slate-700/30 p-3 rounded-lg text-center">
+                <Cog className="h-5 w-5 text-green-400 mx-auto mb-2" />
+                <h3 className="text-white font-semibold text-sm mb-1">Focus</h3>
+                <p className="text-slate-400 text-xs">How ideas developed</p>
+              </div>
+              <div className="bg-slate-700/30 p-3 rounded-lg text-center">
+                <Zap className="h-5 w-5 text-purple-400 mx-auto mb-2" />
+                <h3 className="text-white font-semibold text-sm mb-1">Mission</h3>
+                <p className="text-slate-400 text-xs">Think deeper, build better</p>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
